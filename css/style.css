@@ -1,0 +1,24 @@
+.page {
+    margin: 0 auto;
+}
+.title h1{
+    text-align: center;
+    font-size: 45px;
+    color: #141313;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.sticker-preview {
+    border: solid 1px #000000;
+    margin: 6px auto;
+    background-color: #ECECEC;
+}
+.sticker-preview h1 {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    color: #12111D;
+}
+span {
+    background-color: #5FD937;
+    padding: 0 3px;
+}

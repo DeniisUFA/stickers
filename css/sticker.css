@@ -14,19 +14,19 @@
   background: #c4000d;
 }
 .sticker-color1-op {
-  background: rgba(9, 180, 194, 0.65);
+  background: rgba(9, 180, 194, 0.58);
 }
 .sticker-color2-op {
-  background: rgba(104, 188, 39, 0.65);
+  background: rgba(104, 188, 39, 0.58);
 }
 .sticker-color3-op {
-  background: rgba(239, 208, 2, 0.65);
+  background: rgba(239, 208, 2, 0.57);
 }
 .sticker-color4-op {
-  background: rgba(246, 130, 2, 0.65);
+  background: rgba(246, 130, 2, 0.57);
 }
 .sticker-color5-op {
-  background: rgba(196, 2, 15, 0.65);
+  background: rgba(196, 2, 15, 0.57);
 }
 .sticker {
   position: relative;
@@ -397,7 +397,7 @@
   transition: all 400ms cubic-bezier(0, 0.76, 1, 1);
 }
 .sticker-opacity:hover .sticker-box {
-  opacity: 0.65;
+  opacity: 1;
 }
 /*Sticker-imgrotate-right*/
 .sticker-imgrotate-right .sticker-box {
@@ -411,7 +411,7 @@
   transition: all .6s;
 }
 .sticker-imgrotate-right:hover .sticker-box {
-  opacity: 0.65;
+  opacity: 1;
 }
 .sticker-imgrotate-right .sticker-img {
   -webkit-transition: all 0.95s;
@@ -435,7 +435,7 @@
   transition: all .6s;
 }
 .sticker-imgrotate-left:hover .sticker-box {
-  opacity: 0.65;
+  opacity: 1;
 }
 .sticker-imgrotate-left .sticker-img {
   -webkit-transition: all 0.95s;
@@ -677,12 +677,12 @@
 }
 .sticker-text-top {
   font-weight: 600;
-  font-size: 31px;
+  font-size: 32px;
   letter-spacing: 1.7px;
   margin: 0;
 }
 .sticker-text-bottom {
-  font-size: 16px;
-  letter-spacing: 1.7px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
   margin: 0;
 }
